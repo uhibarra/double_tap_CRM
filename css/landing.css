@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.explore{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.explore a,h3{
+    text-decoration: none;
+    font-weight: 100;
+    color: black;
+}
+
+.button-container{
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    border: 1px solid #707070;
+    border-radius: 15px;
+}
+
+.button-container:hover{
+    background-color: #0850F8;
+}
+
+.learn-landing{
+    display: flex;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    height: 500px;
+    width: 75%;
+}
+
+.learn-child{
+    border-right: 1px solid #707070;
+}
+
+.lc2{
+    border-right:none;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0850F8;
+    color: white;
+    
+}
+
+.solution_options{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: center;
+}

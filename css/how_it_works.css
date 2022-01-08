@@ -1,0 +1,64 @@
+body{
+    font-family: sans-serif;
+    font-size: small;
+    text-align: center;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+
+
+.blue-background{
+    float: right;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0850F8;
+    border-left: 1px solid darkgray;
+    color: white;
+    width: 517px;
+    height: 380px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.collect-info-text-title{
+    text-align: left;
+}
+
+.collect-info-text-sub{
+    text-align: left;
+}
+
+.white-background{
+    float: left;
+    border-radius: 15px 0px 0px 15px;
+    border-top: 1px solid darkgray;
+    border-left: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    color: white;
+    width: 450px;
+    height: 400px;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20.21px;
+}
+
+.get-paid-title{
+    text-align: center;
+}
+
+.get-paid-sub{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+   
+    

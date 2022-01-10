@@ -1,0 +1,160 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.doubletap{
+    margin-top: 5%;
+    font-size: 225%;
+}
+
+.summary-main{
+    font-size: 125%;
+}
+
+.explore{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.explore a,h3{
+    text-decoration: none;
+    font-weight: 100;
+    color: black;
+}
+
+.button-container{
+    height: 170px;
+    width: 170px;
+    margin: 30px;
+    border: 1px solid #707070;
+    border-radius: 15px;
+}
+
+.button-container img{
+    margin-top: 20%;
+    filter: brightness(0%)
+}
+
+.badman{
+    margin-top: 23%;
+}
+
+.button-container:hover{
+    background-color: #0850F8;
+    color: white;
+}
+
+.button-container h3{
+    
+}
+
+.learn-landing{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    height: 700px;
+    width: 78%;
+    margin-left: 11%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.learn-child{
+    border-right: 1px solid #707070;
+}
+
+.lc1{
+    padding:1%;
+    padding-top: 15%;
+}
+
+.lc2{
+    border-right:none;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0850F8;
+    color: white;
+    text-align: left;
+    padding: 30px;
+    padding-top: 7%;
+    padding-left: 4%;
+}
+
+.learn-summary{
+    font-size: 130%;
+    padding: 30px 150px 30px 0px;
+}
+
+.points{
+    font-weight: thin;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.lc2 input{
+    background-color: #0850F8;
+    border: 3px solid white;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 50px;
+    width: 35%;
+    margin-top: 30px;
+}
+
+.lc2 input:hover{
+    font-weight: bold;
+    border: 4px solid white;
+}
+
+.solution_options{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.solution{
+    font-weight: bold;
+    width: 350px;
+    margin-left: 20%;
+    margin-bottom: 20%;
+}
+
+.solution img{    
+    padding: 15%;
+    margin-top: 15%;
+}
+
+.new-img{
+    margin-top: 25%;
+}
+
+.img-back{
+    background-color: #E5EFFF;
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid #707070;
+    z-index: -1;
+}
+
+.solution input{
+    border: 3px solid #707070;
+    background-color: white;
+    width: 60%;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.solution input:hover{
+    background-color: #E5EFFF;
+    color: #0850F8;
+    border-color: #0850F8;
+}

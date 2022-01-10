@@ -1,0 +1,124 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.boxLeft {
+    height: 800px;
+    width: 67%;
+    background-color: blue;
+    clip-path: ellipse(850px 1210px at 21% -52%);
+}
+
+.boxLeft #text {
+    height: 720px;
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+#text h2 {
+    color: white;
+    font-size: 18pt;
+}
+
+#text button {
+    height: 45px;
+    width: 200px;
+    border-style: none;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 20pt;
+}
+
+#boxRight {
+    height: 800px;
+    width: 380px;
+    
+    
+}
+
+#text img {
+    height: 480px;
+    width: 480px;
+    
+}
+
+#head {
+    height: 200px;
+    width: 100%;
+    
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#head h1 {
+    font-size: 40pt;
+}
+
+#mid {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mid input {
+    height: 50px;
+    width: 380px;
+    border-radius: 50px 50px 50px 50px;
+    border-style: none;
+    outline: 1px solid gray;
+    font-size: 12pt;
+}
+
+#bottom {
+    height: 185px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#bottom button {
+    height: 47px;
+    width: 202px;
+    color: white;
+    background-color: blue;
+    font-size: 20pt;
+    border-radius: 50px 50px 50px 50px;
+    border-style: none;
+}
+#card {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#card img {
+    height: 100%;
+    width: 60px;
+    
+    position: relative;
+}

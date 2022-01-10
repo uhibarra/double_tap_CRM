@@ -1,0 +1,84 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-left: 30px;
+}
+
+#head {
+    height: 200px;
+    width: 100%;
+    
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#head h1 {
+    font-size: 40pt;
+}
+
+#mid {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mid input {
+    height: 50px;
+    width: 380px;
+    border-radius: 50px 50px 50px 50px;
+    border-style: none;
+    outline: 1px solid gray;
+    font-size: 12pt;
+}
+
+#bottom {
+    height: 185px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#bottom button {
+    height: 47px;
+    width: 202px;
+    color: white;
+    background-color: blue;
+    font-size: 20pt;
+    border-radius: 50px 50px 50px 50px;
+    border-style: none;
+
+}
+
+#container img {
+    height: 700px;
+    margin-top: 80px;
+}
+
+#card {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#card img {
+    height: 100%;
+    width: 60px;
+    bottom: 80px;
+    position: relative;
+}
